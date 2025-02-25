@@ -64,10 +64,13 @@ void LePacote(tPacote* pac){
             break;
 
         case CHAR:
-            //getchar();
+            getchar();
             for(int i = 0; i < pac->tamanho; i++){
                 char temp;
-                scanf(" %c", &temp);
+                scanf("%c", &temp);
+                if(temp == '\n'){
+                    temp = NULL;
+                }
                 ((char*)pac->mensagem)[i] = temp;
             }
             break;
