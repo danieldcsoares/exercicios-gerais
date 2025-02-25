@@ -24,11 +24,11 @@ tPacote* CriaPacote(Type type, int numElem){
 
     switch(pacote->tipo){
         case INT:
-            pacote->mensagem = malloc(pacote->tamanho * sizeof(int));
+            pacote->mensagem = (int*)malloc(pacote->tamanho * sizeof(int));
             break;
         
         case CHAR:
-            pacote->mensagem = malloc(pacote->tamanho * sizeof(char));
+            pacote->mensagem = (char*)malloc(pacote->tamanho * sizeof(char));
             break;
     }
 
@@ -57,14 +57,18 @@ void LePacote(tPacote* pac){
     switch(pac->tipo){
         case INT:
             for(int i = 0; i < pac->tamanho; i++){
-                scanf("%d", (int*)pac->mensagem + i);
+                int temp;
+                scanf("%d", &temp);
+                ((int*)pac->mensagem)[i] = temp;
             }
             break;
 
         case CHAR:
-            getchar();
+            //getchar();
             for(int i = 0; i < pac->tamanho; i++){
-                scanf("%c", (char*)pac->mensagem + i);
+                char temp;
+                scanf(" %c", &temp);
+                ((char*)pac->mensagem)[i] = temp;
             }
             break;
     }
@@ -86,7 +90,10 @@ void ImprimePacote(tPacote* pac){
             break;
 
         case CHAR:
-            printf("%s", (char*)pac->mensagem);
+            for(int i = 0; i < pac->tamanho; i++){
+                printf("%c", ((char*)pac->mensagem)[i]);
+            }
+            //printf("%s", (char*)pac->mensagem);
             break;
     }
     printf("\n");

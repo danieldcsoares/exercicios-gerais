@@ -151,14 +151,14 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta pacote / Caso 1:
  - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 24, frees: 24, errors: 5 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta pacote / Caso 2:
  - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 45, frees: 45, errors: 11 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta pacote / Caso 3:
  - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
@@ -166,14 +166,14 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta pacote / Caso 4:
  - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 6, frees: 6, errors: 1 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta pacote / Caso 5:
  - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 69, frees: 69, errors: 17 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 41, frees: 41, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta pacote (máximo 2.50) - 20.00 de 50 - 40.00% de 2.50: 1.00.
  -----
 
@@ -199,8 +199,8 @@ Aluno: Daniel
  - Valgrinds corretos: 0 de 5
  - Nota de Daniel para o teste gerenciadorpacotes: 0
  - Teste pacote
- - Resultados corretos: 3 de 5
- - Valgrinds corretos: 1 de 5
+ - Resultados corretos: 2 de 5
+ - Valgrinds corretos: 5 de 5
  - Nota de Daniel para o teste pacote: 1.00
  - Nota de Daniel: 0+(0)+(1.00)+(0)+(0)
  - Nota de Daniel: 1.00
