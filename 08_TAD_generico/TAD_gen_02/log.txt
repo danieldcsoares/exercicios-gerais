@@ -1,0 +1,213 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Daniel
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Daniel:
+ - Diretório Resultados/Daniel criado com sucesso!
+ - Diretório Resultados/Daniel/main criado com sucesso!
+ - Diretório Resultados/Daniel/completo criado com sucesso!
+ - Diretório Resultados/Daniel/gerenciadorpacotes criado com sucesso!
+ - Diretório Resultados/Daniel/pacote criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Daniel/gerenciadorpacotes.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/gerenciadorpacotes.h' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Daniel/pacote.c' encontrado!
+ - Arquivo esperado 'Respostas/Daniel/pacote.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/main
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Daniel/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/main
+ - Removendo o main.o do professor da pasta Resultados/Daniel/main
+ - Copiando o Respostas/Daniel/main.c do aluno para a pasta Resultados/Daniel/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/gerenciadorpacotes.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/gerenciadorpacotes.h do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/main.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/pacote.c do aluno para a pasta Resultados/Daniel/completo
+ - Copiando os Respostas/Daniel/pacote.h do aluno para a pasta Resultados/Daniel/completo
+ - Pasta gerenciadorpacotes:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/gerenciadorpacotes
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Daniel/gerenciadorpacotes
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/gerenciadorpacotes
+ - Removendo o gerenciadorpacotes.o do professor da pasta Resultados/Daniel/gerenciadorpacotes
+ - Copiando o Respostas/Daniel/gerenciadorpacotes.c do aluno para a pasta Resultados/Daniel/gerenciadorpacotes
+ - Pasta pacote:
+ - Copiando os Casos de teste para a pasta Resultados/Daniel/pacote
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Daniel/pacote
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Daniel/pacote
+ - Removendo o pacote.o do professor da pasta Resultados/Daniel/pacote
+ - Copiando o Respostas/Daniel/pacote.c do aluno para a pasta Resultados/Daniel/pacote
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Daniel/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta gerenciadorpacotes ok!
+ - Arquivo de output gerado: Resultados/Daniel/gerenciadorpacotes/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pacote ok!
+ - Arquivo de output gerado: Resultados/Daniel/pacote/result_compilation.txt
+ - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Daniel/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Daniel/completo/result_linking.txt
+ - Pasta gerenciadorpacotes:
+ - Gerando o binário prog linkando com o(s) arquivo(s) gerenciadorpacotes/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Daniel/gerenciadorpacotes/result_linking.txt
+ - Pasta pacote:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pacote/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Daniel/pacote/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta gerenciadorpacotes / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta gerenciadorpacotes (máximo 2.50) - 0 de 50 - 0% de 2.50: 0.
+ -----
+ - Pasta pacote / Caso 1:
+ - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 24, frees: 24, errors: 5 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta pacote / Caso 2:
+ - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 45, frees: 45, errors: 11 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pacote / Caso 3:
+ - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 4:
+ - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 6, frees: 6, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta pacote / Caso 5:
+ - Arquivo de output gerado: Resultados/Daniel/pacote/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 69, frees: 69, errors: 17 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta pacote (máximo 2.50) - 20.00 de 50 - 40.00% de 2.50: 1.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Daniel
+ - Arquivos Esperados Corretos: 4 de 5
+ - Pastas Compiladas Corretamente: 3 de 4 
+ - Pastas Linkadas Corretamente: 1 de 4
+ - Teste main
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 0 de 5
+ - Nota de Daniel para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 0 de 5
+ - Nota de Daniel para o teste completo: 0
+ - Teste gerenciadorpacotes
+ - Resultados corretos: 0 de 5
+ - Valgrinds corretos: 0 de 5
+ - Nota de Daniel para o teste gerenciadorpacotes: 0
+ - Teste pacote
+ - Resultados corretos: 3 de 5
+ - Valgrinds corretos: 1 de 5
+ - Nota de Daniel para o teste pacote: 1.00
+ - Nota de Daniel: 0+(0)+(1.00)+(0)+(0)
+ - Nota de Daniel: 1.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

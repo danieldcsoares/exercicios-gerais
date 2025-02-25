@@ -1,0 +1,6 @@
+==118840== Memcheck, a memory error detector
+==118840== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==118840== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==118840== Command: Resultados/Daniel/completo/prog Resultados/Daniel/completo/Casos/6
+==118840== Parent PID: 118839
+==118840== 

@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Daniel/pad/main.o: in function `main':
+main.c:(.text+0x12): undefined reference to `CriaPad'
+/usr/bin/ld: main.c:(.text+0x22): undefined reference to `RodaPad'
+/usr/bin/ld: main.c:(.text+0x2e): undefined reference to `ImprimeRelatorioPad'
+/usr/bin/ld: main.c:(.text+0x3a): undefined reference to `LiberaPad'
+collect2: error: ld returned 1 exit status

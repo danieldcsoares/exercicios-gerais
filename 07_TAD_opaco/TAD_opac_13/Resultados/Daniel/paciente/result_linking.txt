@@ -1,0 +1,17 @@
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `IdentificaPacientePad':
+pad.c:(.text+0x99): undefined reference to `GetCartaoSusPaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `RodaPad':
+pad.c:(.text+0x137): undefined reference to `CriaPaciente'
+/usr/bin/ld: pad.c:(.text+0x147): undefined reference to `LePaciente'
+/usr/bin/ld: pad.c:(.text+0x1ca): undefined reference to `AdicionaLesaoPaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `LiberaPad':
+pad.c:(.text+0x22b): undefined reference to `LiberaPaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `CalcMediaIdadePad':
+pad.c:(.text+0x298): undefined reference to `GetNascimentoPaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `ImprimeListaPacientesPad':
+pad.c:(.text+0x325): undefined reference to `ImprimePaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `CalcTotalLesoesPad':
+pad.c:(.text+0x36f): undefined reference to `GetQtdLesoesPaciente'
+/usr/bin/ld: Resultados/Daniel/paciente/pad.o: in function `CalcTotalCirurgiasPad':
+pad.c:(.text+0x3bd): undefined reference to `GetQtdCirurgiasPaciente'
+collect2: error: ld returned 1 exit status

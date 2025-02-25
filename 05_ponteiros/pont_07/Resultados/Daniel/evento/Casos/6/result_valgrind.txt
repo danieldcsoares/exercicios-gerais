@@ -1,0 +1,6 @@
+==119550== Memcheck, a memory error detector
+==119550== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==119550== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==119550== Command: Resultados/Daniel/evento/prog Resultados/Daniel/evento/Casos/6
+==119550== Parent PID: 119549
+==119550== 

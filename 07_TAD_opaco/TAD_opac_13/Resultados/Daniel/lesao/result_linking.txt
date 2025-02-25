@@ -1,0 +1,11 @@
+/usr/bin/ld: Resultados/Daniel/lesao/paciente.o: in function `GetQtdCirurgiasPaciente':
+paciente.c:(.text+0x7c): undefined reference to `PrecisaCirurgiaLesao'
+/usr/bin/ld: Resultados/Daniel/lesao/paciente.o: in function `LiberaPaciente':
+paciente.c:(.text+0x1c1): undefined reference to `LiberaLesao'
+/usr/bin/ld: Resultados/Daniel/lesao/paciente.o: in function `ImprimePaciente':
+paciente.c:(.text+0x33d): undefined reference to `GetIdLesao'
+/usr/bin/ld: Resultados/Daniel/lesao/pad.o: in function `RodaPad':
+pad.c:(.text+0x189): undefined reference to `CriaLesao'
+/usr/bin/ld: pad.c:(.text+0x199): undefined reference to `LeLesao'
+/usr/bin/ld: pad.c:(.text+0x1d8): undefined reference to `LiberaLesao'
+collect2: error: ld returned 1 exit status

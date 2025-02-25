@@ -1,0 +1,6 @@
+main.c: In function ‘main’:
+main.c:10:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘Type *’ [-Wformat=]
+   10 |     scanf("%d %d", &tipo, &tamanho);
+      |            ~^      ~~~~~
+      |             |      |
+      |             int *  Type *
