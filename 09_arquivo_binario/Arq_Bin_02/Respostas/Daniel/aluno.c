@@ -62,19 +62,6 @@ void DestruirAluno(tAluno* aluno){
  * @return Um ponteiro para o aluno lido.
  */
 tAluno *LeAluno(FILE *arquivo_binario){
-    /*char caminho[100];
-    scanf("%[^\n]\n", caminho);
-
-    arquivo_binario = fopen(caminho, "rb");
-
-    int nAlunos;
-    fread(&nAlunos, sizeof(int), 1, arquivo_binario);
-
-    for(int i = 0; i < nAlunos, i++){
-
-    }
-
-    fclose(arquivo_binario);*/
 
     tAluno* aluno = CriarAluno("vazio", "vazio", "vazio", 0, 0);
     fread(aluno->nome, sizeof(char), MAX_TAM_NOME, arquivo_binario);
